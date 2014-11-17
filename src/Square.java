@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class Square {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Введите первый коэффициент уравнения: ");
+        System.out.print("Введите первый коэффициент уравнения:  ");
         double a = sc.nextDouble();
-        System.out.print("Введите второй коэффициент уравнения: ");
+        System.out.print("Введите второй коэффициент уравнения:  ");
         double b = sc.nextDouble();
-        System.out.print("Введите третий коэффициент уравнения: ");
+        System.out.print("Введите третий коэффициент уравнения:  ");
         double c = sc.nextDouble();
         System.out.println(a + "x^2 + " + b + "x + " + c + " = 0");
 
